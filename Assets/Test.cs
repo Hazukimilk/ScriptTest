@@ -27,7 +27,7 @@ public class Boss
             this.mp -= 5;
             Debug.Log("魔法攻撃をした。残りMPは" + this.mp + "。");
         }
-        else if (this.mp < 5)
+        else
         {
             Debug.Log("MPが足りないため魔法が使えない。");
         }
